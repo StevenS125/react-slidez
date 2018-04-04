@@ -1,5 +1,5 @@
 {
-  "name": "react-slidez",
+  "name": "react-slideshowz",
   "version": "0.0.20",
   "description": "React Slideshow Component",
   "main": "build/index.js",
@@ -20,7 +20,7 @@
     "build": "webpack"
   },
   "author": {
-    "name": "Paul Fitzgerald"
+    "name": "Steve Snyder"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
