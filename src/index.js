@@ -22,7 +22,6 @@ class Slideshow extends Component {
 		this.restartSlideshow = this.restartSlideshow.bind(this);
 		this.increaseCount = this.increaseCount.bind(this);
 		this.decreaseCount = this.decreaseCount.bind(this);
-		this.handleKeyboard = this.handleKeyboard.bind(this);
 	}
 
 	componentDidMount() {
@@ -34,9 +33,6 @@ class Slideshow extends Component {
 			document.addEventListener('keydown', this.handleKeyboard);
 	}
 
-	handleKeyboard(e) {
-		e.keyCode === 37 ? this.decreaseCount() : e.keyCode === 39 ? this.increaseCount() : null;
-	}
 
 	runSlideShow () {
 		let intervalId = setInterval(this.autoSlideshow, this.state.slideInterval);
