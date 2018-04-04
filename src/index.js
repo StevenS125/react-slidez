@@ -14,7 +14,6 @@ class Slideshow extends Component {
 			showArrows: (typeof props.showArrows === 'undefined') ? true : props.showArrows,
 			effect: (typeof props.effect === 'undefined') ? true : props.effect,
 			autoplay: (typeof props.autoplay === 'undefined') ? true : props.autoplay,
-			enableKeyboard: (typeof props.enableKeyboard === 'undefined') ? true : props.enableKeyboard,
 			slides: (typeof props.slides !== 'undefined' && props.slides.length > 0) ? props.slides : props.children
 		};
 
