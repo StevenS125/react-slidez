@@ -9,8 +9,8 @@ class Slideshow extends Component {
 		this.state = {
 			currentSlide: (typeof props.defaultIndex === 'undefined') ? 0 : props.defaultIndex,
 			slideInterval: (typeof props.slideInterval === 'undefined') ? 2000 : props.slideInterval,
-			showIndex: (typeof props.showIndex === 'undefined') ? true : props.showIndex,
-			useDotIndex: (typeof props.useDotIndex === 'undefined') ? false : props.useDotIndex,
+			showIndex: (typeof props.showIndex === 'undefined') ? false : props.showIndex,
+			useDotIndex: (typeof props.useDotIndex === 'undefined') ? true : props.useDotIndex,
 			showArrows: (typeof props.showArrows === 'undefined') ? true : props.showArrows,
 			effect: (typeof props.effect === 'undefined') ? true : props.effect,
 			autoplay: (typeof props.autoplay === 'undefined') ? true : props.autoplay,

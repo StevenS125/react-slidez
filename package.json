@@ -1,6 +1,6 @@
 {
   "name": "react-slideshowz",
-  "version": "0.0.20",
+  "version": "0.0.40",
   "description": "React Slideshow Component",
   "main": "build/index.js",
   "keywords": [
